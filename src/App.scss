@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+  color: #333;
+
+  input,
+  button {
+    font-family: inherit;
+  }
+}

@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: none;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(132, 116, 116, 0.1);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 450px;
+  z-index: 1000;
+  span {
+    color: #d3cdcd;
+    text-decoration: none;
+  }
+
+  button {
+    background-color: transparent;
+
+    border: none;
+    color: #f7f2f2;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 10px;
+
+    &:hover {
+      color: #5d98fc;
+    }
+  }
+}
